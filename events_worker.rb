@@ -4,9 +4,11 @@ require 'discordrb/webhooks'
 
 puts "Starting events listener"
 
+# EDIT THIS SECTION
 $PDS_URL = "porcini.us-east.host.bsky.network"
 $LABELER_DID = "did:plc:j67mwmangcbxch7knfm7jo2b"
 WEBHOOK_URL = "https://discord.com/api/webhooks/"
+# DO NOT EDIT BELOW HERE
 
 # we need to get a bearer token
 $bsky = Minisky.new('bsky.social', 'creds.yml')
