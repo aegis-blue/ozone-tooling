@@ -18,3 +18,4 @@ Ubuntu:
 `bundle install`
 5. edit creds.yml to have your bsky labeler user and pass
 6. edit the script you wish to use. only edit the section between `EDIT THIS SECTION` and `DO NOT EDIT BELOW HERE`
+7. run the desired script with `ruby script_name.rb`
